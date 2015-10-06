@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.section-1 {
+	background: #9c7c80;
+}
+.section-2 {
+	background: #c8a9cf;
+}
+.section-3 {
+	background: #bac3db;
+}
+.section-4 {
+	background: #cae8df;
+}
+.section {
+	position: relative;
+}
+.section p {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	font-weight: 900;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	text-transform: uppercase;
+}
